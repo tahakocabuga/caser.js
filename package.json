@@ -1,0 +1,11 @@
+{
+  "name": "x-case",
+  "version": "1.0.0",
+  "description": "A lightweight library which lets you convert string cases.",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Taha Kocabuga",
+  "license": "ISC"
+}

@@ -3,7 +3,7 @@
 ### X-Case is a module which focuses on cases like pascal case, camel case and more.
 
 Download: 
-[NPM][npm]: `npm install x-case`
+NPM: `npm install x-case`
 
 [![NPM version](https://img.shields.io/npm/v/x-case.svg)]
 [![NPM](https://img.shields.io/npm/dm/x-case.svg)]
@@ -11,8 +11,8 @@ Download:
 ```javascript
 const xcase = require('x-case');
 
-xcase.snakeCaseUpper('Foo bar')   -> 'foo_bar'
-xcase.snakeCaseLower('Foo bar')   -> 'FOO_BAR'
+xcase.snakeCaseLower('Foo bar')   -> 'foo_bar'
+xcase.snakeCaseUpper('Foo bar')   -> 'FOO_BAR'
 xcase.pascalCase('foo bar')   -> 'FooBar'
 xcase.camelCase('foo bar')   -> 'fooBar'
 xcase.kebabCaseLower('Foo Bar')  -> 'foo-bar'
