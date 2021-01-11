@@ -5,8 +5,8 @@
 Download: 
 NPM: `npm install caser.js`
 
-[![NPM version](https://img.shields.io/npm/v/caser.js.svg)]
-[![NPM](https://img.shields.io/npm/dm/caser.js.svg)]
+![NPM version](https://img.shields.io/npm/v/caser.js.svg)
+![NPM](https://img.shields.io/npm/dm/caser.js.svg)
 
 ```javascript
 const caser = require('caser.js');
