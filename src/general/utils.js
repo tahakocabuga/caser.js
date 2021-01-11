@@ -49,11 +49,6 @@ utils.pascalCaseConverter = function(text) {
     .join('')
 };
 
-utils.spaceCaseConverter = function(text) {
-    const sanitized = sanitize(text);
-    const returned = sanitized.replace(/_/g, '');
-    return returned.map((word) => word.toLowerCase()).join(' ');
-};
 
 
 

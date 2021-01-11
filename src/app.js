@@ -24,22 +24,15 @@ const _snakeCaseLower = function(text) {
     return utils.snakeCaseConverter(text).toLowerCase();
 }
 
-const _spaceCaseLower = function(text) {
-    return utils.spaceCaseConverter(text).toLowerCase();
-}
-
-const _spaceCaseUpper = function(text) {
-    return utils.spaceCaseConverter(text).toLowerCase();
-}
 
 module.exports = {
     kebabCaseLower: _kebabCaseLower,
     kebabCaseUpper: _kebabCaseUpper,
+    kebabCase: utils.kebabCaseConverter,
     camelCase: utils.camelCaseConverter,
     pascalCase: utils.pascalCaseConverter,
     snakeCaseLower: _snakeCaseLower,
     snakeCaseUpper: _snakeCaseUpper,
-    spaceCaseUpper: _spaceCaseUpper,
-    spaceCaseLower: _spaceCaseLower
+    snakeCase: utils.snakeCaseConverter
 }
 
