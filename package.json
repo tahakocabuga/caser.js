@@ -1,6 +1,6 @@
 {
-  "name": "x-case",
-  "version": "1.0.0",
+  "name": "caser.js",
+  "version": "1.0.3",
   "description": "A lightweight library which lets you convert string cases.",
   "main": "src/app.js",
   "scripts": {
