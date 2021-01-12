@@ -53,6 +53,14 @@ caser.snakeCaseLower('Foo bar')  -> 'foo_bar'
 caser.snakeCaseUpper('Foo bar')  -> 'FOO_BAR'
 ```
 
+#### [pathCase]()
+
+```javascript
+caser.pathCase('Foo bar')       -> 'Foo/bar'
+caser.pathCaseLower('Foo bar')  -> 'foo/bar'
+caser.pathCaseUpper('Foo bar')  -> 'FOO/BAR'
+```
+
 ##### Info
 
 It sanitizes Turkish words such as "ş".
