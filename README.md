@@ -14,7 +14,6 @@ NPM: `npm install caser.js`
 - [`pascalCase`](#pascalcase)
 - [`kebabCase`](#kebabcase)
 - [`snakeCase`](#snakecase)
-- [`pathCase`](#pathcase)
 
 ### Usage
 
@@ -52,14 +51,6 @@ caser.kebabCaseUpper('Foo Bar')  -> 'FOO-BAR'
 caser.snakeCase('Foo bar')       -> 'Foo_bar'
 caser.snakeCaseLower('Foo bar')  -> 'foo_bar'
 caser.snakeCaseUpper('Foo bar')  -> 'FOO_BAR'
-```
-
-#### [pathCase]()
-
-```javascript
-caser.pathCase('Foo bar')       -> 'Foo/bar'
-caser.pathCaseLower('Foo bar')  -> 'foo/bar'
-caser.pathCaseUpper('Foo bar')  -> 'FOO/BAR'
 ```
 
 ##### Info
