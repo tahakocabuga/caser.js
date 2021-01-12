@@ -1,8 +1,13 @@
 {
   "name": "caser.js",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A lightweight library which lets you convert string cases.",
   "main": "src/app.js",
+
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/tahakocabuga/caser.js.git"
+  },
   "scripts": {
     "test": "node test.js"
   },

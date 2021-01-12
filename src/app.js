@@ -24,6 +24,13 @@ const _snakeCaseLower = function(text) {
     return utils.snakeCaseConverter(text).toLowerCase();
 }
 
+const _pathCaseLower = function(text) {
+    return utils.pathCaseConverter(text).toLowerCase();
+}
+
+const _pathCaseUpper = function(text) {
+    return utils.pathCaseConverter(text).toUpperCase();
+}
 
 module.exports = {
     kebabCaseLower: _kebabCaseLower,
@@ -33,6 +40,9 @@ module.exports = {
     pascalCase: utils.pascalCaseConverter,
     snakeCaseLower: _snakeCaseLower,
     snakeCaseUpper: _snakeCaseUpper,
-    snakeCase: utils.snakeCaseConverter
+    snakeCase: utils.snakeCaseConverter,
+    pathCaseLower: _pathCaseLower,
+    pathCaseUpper: _pathCaseUpper,
+    pathCase: utils.pathCaseConverter,
 }
 

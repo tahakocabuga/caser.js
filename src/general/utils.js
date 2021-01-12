@@ -49,6 +49,12 @@ utils.pascalCaseConverter = function(text) {
     .join('')
 };
 
+utils.pathCaseConverter = function(text) {
+    const sanitized = sanitize(text);
+    const returned = sanitized.replace(/_/g, ' ');
+    return returned.replace(/\s+/g, '/');
+};
+
 
 
 
