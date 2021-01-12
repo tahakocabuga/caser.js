@@ -8,6 +8,36 @@ NPM: `npm install caser.js`
 ![NPM version](https://img.shields.io/npm/v/caser.js.svg)
 ![NPM](https://img.shields.io/npm/dm/caser.js.svg)
 
+## Index
+
+- [`camelCase`](#camelcase)
+- [`PascalCase`](#pascalcase)
+
+### Usage
+
+```javascript
+const caser = require('caser.js');
+```
+
+#### [camelCase]()
+
+> Code Helper
+
+```javascript
+caser.camelCase('foo bar')    -> 'fooBar'
+```
+
+#### [PascalCase]()
+
+> Code Helper
+
+```javascript
+caser.pascalCase('foo bar')   -> 'FooBar'
+```
+
+#### [PascalCase]()
+
+
 ```javascript
 const caser = require('caser.js');
 
