@@ -11,7 +11,9 @@ NPM: `npm install caser.js`
 ## Index
 
 - [`camelCase`](#camelcase)
-- [`PascalCase`](#pascalcase)
+- [`pascalCase`](#pascalcase)
+- [`kebabCase`](#kebabcase)
+- [`snakeCase`](#snakecase)
 
 ### Usage
 
@@ -24,32 +26,36 @@ const caser = require('caser.js');
 > Code Helper
 
 ```javascript
-caser.camelCase('foo bar')    -> 'fooBar'
+caser.camelCase('foo bar')        -> 'fooBar'
 ```
 
-#### [PascalCase]()
+#### [pascalCase]()
 
 > Code Helper
 
 ```javascript
-caser.pascalCase('foo bar')   -> 'FooBar'
+caser.pascalCase('foo bar')      -> 'FooBar'
 ```
 
-#### [PascalCase]()
-
+#### [kebabCase]()
 
 ```javascript
-const caser = require('caser.js');
-
-caser.snakeCaseLower('Foo bar')   -> 'foo_bar'
-caser.snakeCaseUpper('Foo bar')   -> 'FOO_BAR'
-caser.snakeCase('Foo bar')   -> 'Foo_bar'
-caser.pascalCase('foo bar')   -> 'FooBar'
-caser.camelCase('foo bar')   -> 'fooBar'
-caser.kebabCase('Foo Bar')   -> 'Foo-Bar'
+caser.kebabCase('Foo Bar')       -> 'Foo-Bar'
 caser.kebabCaseLower('Foo Bar')  -> 'foo-bar'
 caser.kebabCaseUpper('Foo Bar')  -> 'FOO-BAR'
 ```
+
+#### [snakeCase]()
+
+```javascript
+caser.snakeCase('Foo bar')       -> 'Foo_bar'
+caser.snakeCaseLower('Foo bar')  -> 'foo_bar'
+caser.snakeCaseUpper('Foo bar')  -> 'FOO_BAR'
+```
+
+##### Info
+
+It sanitizes Turkish words such as "ş".
 
 ## Release History
 * 2021-1-12 [v1.0.3]() (Edited README due to an old version.)
