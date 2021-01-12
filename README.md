@@ -66,6 +66,7 @@ caser.pathCaseUpper('Foo bar')  -> 'FOO/BAR'
 It sanitizes Turkish words such as "ş".
 
 ## Release History
+* 2021-1-12 [v1.0.6]() (Fixed some issues.)
 * 2021-1-12 [v1.0.5]() (Added Path Case.)
 * 2021-1-12 [v1.0.4]() (Fixed some bugs.)
 * 2021-1-12 [v1.0.3]() (Edited README due to an old version.)
