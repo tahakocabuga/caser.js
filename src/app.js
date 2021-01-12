@@ -41,8 +41,8 @@ module.exports = {
     snakeCaseLower: _snakeCaseLower,
     snakeCaseUpper: _snakeCaseUpper,
     snakeCase: utils.snakeCaseConverter,
-    pathCaseLower: _pathCaseLower,
     pathCaseUpper: _pathCaseUpper,
+    pathCaseLower: _pathCaseLower,
     pathCase: utils.pathCaseConverter,
 }
 
