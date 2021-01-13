@@ -1,6 +1,6 @@
 # caser.js
 
-### caser.js is a module which focuses on cases like pascal case, camel case and more.
+### A lightweight library which lets you convert string cases. 
 
 Download: 
 NPM: `npm install caser.js`
