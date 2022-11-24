@@ -64,7 +64,7 @@ caser.pathCaseUpper('Foo bar')  -> 'FOO/BAR'
 
 ##### Info
 
-It sanitizes Turkish words such as "ş".
+It sanitizes some non-ascii words such as "ş".
 
 ## Release History
 * 2021-1-12 [v1.0.6]() (Fixed some issues.)
